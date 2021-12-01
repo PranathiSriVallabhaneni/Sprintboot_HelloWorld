@@ -6,9 +6,15 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class SpringBootHelloWorldExampleApplication
 {
+	
+	public SpringBootHelloWorldExampleApplication()
+	{
+		System.out.println("Inside Constructor");
+	}
+	
 	public static void main(String[] args) 
 	{
-		System.out.println("Inside Main");
+		System.out.println("Hello from Main Method!!!");
 		SpringApplication.run(SpringBootHelloWorldExampleApplication.class, args);
 	}
 }

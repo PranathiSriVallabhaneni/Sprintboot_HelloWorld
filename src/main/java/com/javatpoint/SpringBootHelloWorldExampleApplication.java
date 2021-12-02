@@ -12,6 +12,11 @@ public class SpringBootHelloWorldExampleApplication
 		System.out.println("Inside Constructor");
 	}
 	
+	public static void greet(String person)
+	{
+		System.out.println("I am Greeting you " + person);
+	}
+	
 	public static void main(String[] args) 
 	{
 		System.out.println("Hello from Main Method!!!");
